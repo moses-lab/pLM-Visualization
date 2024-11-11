@@ -9,10 +9,6 @@ import pandas as pd
 import plotly.graph_objects as go
 
 
-# only required for work on colab
-import os
-
-
 
 
 def sigmoid_RGB_converter(v): 
@@ -89,19 +85,8 @@ def make_protein_segments_figure(pids, bar_names=None, height=500, width=1000, d
     if len(pids) != len(bar_names):
         print("Please enter an equal number of UniProt protein IDs (pids) and names given for the bar chart (bar_names).\nWhere pids[i] corresponds to bar_names[i].")
         return 0
-    if data_path == None:
-        home_path = os.getenv("HOME")
-        # if you are working on colab
-        if home_path=="/root":
-            data_path = '/content/pLM-Visualization/human_proteome_segments/human_protein_segments_umap_3D.tsv'
-        #if the data file is in the same directory as this file and the notebook
-        else:
-            if "human_protein_segments_umap_3D.tsv" in os.listdir("./"):
-                data_path = "human_protein_segments_umap_3D.tsv"
-            else:
-                print("Data file not found: Please put the data file into the same directory as this notebook")
-
-
+    if data_path==None:
+        print("Please enter the path to the datafile with the pre-calculated umap coordinates as 'data_path' in 'make_protein_segments_figure'")
 
 
     # read in a pre-computed umap of the embedding (1024 was umap to 3D, which will be converted to RGB)
