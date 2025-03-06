@@ -16,4 +16,4 @@ How to visualize protein segments from the human proteome using Colab:
 
 
 Copyright Statement
-version 2.0 copyright 2004-2006 by Alan Moses. This software is provided "as is" without warranty of any kind. The author assumes no responsibility for the results it produces or conclusions based thereupon. It is distributed free of charge for academic use only. Permission to copy and use it is granted free of charge provided that no fee is charged and this copyright notice is not removed.
+version 2.0 copyright 2025 by Ami Sangster. This software is provided "as is" without warranty of any kind. The author assumes no responsibility for the results it produces or conclusions based thereupon. It is distributed free of charge for academic use only. Permission to copy and use it is granted free of charge provided that no fee is charged and this copyright notice is not removed.
