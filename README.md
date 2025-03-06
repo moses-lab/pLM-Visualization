@@ -13,3 +13,7 @@ How to visualize protein segments from the human proteome using Colab:
 8. Run the third block of code to save an interactive .html of the figure to colab.
 9. To download this plot from colab to your computer, click on the file folder icon on the left and you should be able to see your html file. Click on the 3 vertical dots directly to the right of the file name and select "Download". If the hteml file does not appear immediately, click on the refresh button in the file folder sub menu (just below the "Files"). html files generated in this colab session might be deleted from colab when the window is closed.
 10. Re-run the second and third block of code to generate new figures and new html files.
+
+
+Copyright Statement
+version 2.0 copyright 2004-2006 by Alan Moses. This software is provided "as is" without warranty of any kind. The author assumes no responsibility for the results it produces or conclusions based thereupon. It is distributed free of charge for academic use only. Permission to copy and use it is granted free of charge provided that no fee is charged and this copyright notice is not removed.
